@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.img_container{
+    text-align: center;
+}
+.img_container img{
+    border-radius: 15px;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    box-shadow: 0px 8px 15px rgba(21, 21, 21, 0.1);
+}
+.first{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #e8cc53;;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+.last{
+    font-family: 'Georgia', serif;
+    line-height: 2;
+    color: #000;
+    background-color: #ad9f5d;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.styled_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: rgb(99, 217, 99);
+    border: none;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: medium;
+    font-weight: 400;
+}
+.styled_btn:hover {
+    background-color: rgb(75, 180, 75); 
+    transform: scale(1.05); 
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+    gap: 10px;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+input{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    height: fit-content;
+    padding: 10px;
+    font-size: medium;
+}
+form label{
+    font-size: medium;
+    font-weight: 600;
+}
+button[type=submit]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 10px auto;
+    background-color: rgb(99, 217, 99);
+    border: none;
+    font-size: medium;
+    font-weight: 400;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button[type=submit]:hover{
+    background-color: rgb(75, 180, 75);
+    transform: scale(1.05);
+}
